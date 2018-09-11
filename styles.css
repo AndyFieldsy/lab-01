@@ -6,6 +6,13 @@ body {
     vertical-align: middle;
     text-align:center;
 }
+.a2, .b2, .c2, .d2, .e2, .f2, .g2, .h2, .i2 {
+    margin:0px;
+    display:inline-block;
+    position:relative;
+    vertical-align:middle;
+    top:45%;
+}
 
 
 @media only screen and (max-width: 960px) {
