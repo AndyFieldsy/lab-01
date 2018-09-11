@@ -1,3 +1,13 @@
+
+body {
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h, .i {
+    vertical-align: middle;
+    text-align:center;
+}
+
+
 @media only screen and (max-width: 960px) {
 body {
     background-color:whitesmoke;
@@ -62,6 +72,8 @@ body {
 
 @media only screen and (min-width: 960px) {
 body {
+    position:center;
+    width:960px;
     background-color: blue;
 }
 .a {
