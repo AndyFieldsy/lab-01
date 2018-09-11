@@ -1,0 +1,129 @@
+@media only screen and (max-width: 960px) {
+body {
+    background-color:whitesmoke;
+    width:480px;
+}
+.a {
+    position:center;
+    width:480px;
+    height:75px;
+    background-color:lightblue;
+    left:20px;
+}
+.b {
+    position:center;
+    width:480px;
+    height:150px;
+    background-color:lightcoral;
+}
+.c{
+    position:center;
+    width:480px;
+    height:125px;
+    background-color:lightcyan;
+}
+.d{
+    position:center;
+    width:480px;
+    height:125px;
+    background-color:lightgoldenrodyellow;
+    }
+.e{
+    width:240px;
+    height:250px;
+    background-color:lightgray;
+    float:left;
+    }
+.f{
+    width:240px;
+    height:250px;
+    background-color:lightgreen;
+    float:right;
+    }
+.g{
+    width:240px;
+    height:250px;
+    background-color:lightskyblue;
+    float:left;
+    }
+.h{
+    width:240px;
+    height:250px;
+    background-color:lightpink;
+    float:right;
+    }
+.i{
+    width:480px;
+    height:80px;
+    background-color:lightsalmon;
+    clear:both;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+body {
+    background-color: blue;
+}
+.a {
+    position:center;
+    width:960px;
+    height:100px;
+    background-color:lightblue;
+    left:20px;
+}
+.b {
+    position:center;
+    width:200px;
+    height:600px;
+    background-color:lightcoral;
+    float:left;
+}
+.c{
+    float:left;
+    position:relative;
+    width:380px;
+    height:200px;
+    background-color:lightcyan;
+    /* left:200px; */
+}
+.d{
+    float:left;
+    position:relative;
+    width:380px;
+    height:200px;
+    background-color:lightgoldenrodyellow;
+    /* left:580px;
+    bottom:200px; */
+    }
+.e{
+    float:left;
+    position:relative;
+    width:190px;
+    height:250px;
+    background-color:lightgray;
+    }
+.f{
+    float:left;
+    width:190px;
+    height:250px;
+    background-color:lightgreen;
+    }
+.g{
+    float:left;
+    width:190px;
+    height:250px;
+    background-color:lightskyblue;
+    }
+.h{
+    float:left;
+    width:190px;
+    height:250px;
+    background-color:lightpink;
+    }
+.i{
+    float:left;
+    width:760px;
+    height:150px;
+    background-color:lightsalmon;
+    }
+}
